@@ -1,0 +1,26 @@
+body {
+    font-family: Young Serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #F3E5D8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
