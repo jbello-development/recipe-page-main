@@ -2,6 +2,6 @@
 
 This is a HTML CSS challenge to recreate a social links profile. Below is the design.
 
-Live Github Pages
+<a href="https://jbello-development.github.io/recipe-page-main/" target="_blank">Live Github Pages</a>
 
 ![Design preview for the Recipe page coding challenge](./preview.jpg)
