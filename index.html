@@ -2,33 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipe pages</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./assets/css/style.css"> 
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Young+Serif">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Use correct Google Fonts import: -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
-
   <div class="container">
-    <div class="content">
-      <div class="header-image">
-        <img src="./assets/images/image-omelette.jpeg" alt="Omelette Image">
-      </div>
-      <div class="introduction">
-        <h1>  Simple Omelette Recipe</h1>
-        <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
-      </div>
-      <div class="preparation">
+    <main class="content">
+      <header>
+        <figure class="header-image">
+          <img src="./assets/images/image-omelette.jpeg" alt="Omelette Image">
+        </figure>
+        <section class="introduction">
+          <h1>Simple Omelette Recipe</h1>
+          <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+        </section>
+      </header>
+
+      <section class="preparation">
         <h3>Preparation Time</h3>
         <ul>
-          <li><b>Approximately:</b>  10 minutes</li>
+          <li><b>Approximately:</b> 10 minutes</li>
           <li><b>Preparation:</b> 5 minutes</li>
           <li><b>Cooking:</b> 5 minutes</li>
-        </ul>             
-      </div>
-      <div class="ingredients">
+        </ul>
+      </section>
+
+      <section class="ingredients">
         <h2>Ingredients</h2>
         <ul class="ingredients-list marker-styles">
           <li>2-3 large eggs</li>
@@ -36,57 +39,49 @@
           <li>Pepper, to taste</li>
           <li>1 tablespoon of butter or oil</li>
           <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
-        </ul>          
-        <hr / class="break-line">
-      </div>
-      <div class="instructions">
+        </ul>
+        <hr class="break-line">
+      </section>
+
+      <section class="instructions">
         <h2>Instructions</h2>
         <ol class="instructions-list marker-styles">
           <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
-          <li><b>Heat the pan: </b>Place a non-stick frying pan over medium heat and add butter or oil.</li>
-          <li><b>Cook the omelette: </b>Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
-          <li><b>Add fillings (optional): </b>When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
-          <li><b>Fold and serve: </b>As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate</li>
+          <li><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+          <li><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+          <li><b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+          <li><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
           <li><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
-        </ol>          
-        <hr / class="break-line">
-      </div>
-      <div class="nutrition">
+        </ol>
+        <hr class="break-line">
+      </section>
+
+      <section class="nutrition">
         <h2>Nutrition</h2>
-
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
-
         <div class="nutrition-table">
-
-          <div class="calories table-format"> 
-            <div><span>Calories</span> </div>  
-            <div><span class="nutrition-value">277kcal</span></div>
-            
+          <div class="table-format">
+            <span>Calories</span>
+            <span class="nutrition-value">277kcal</span>
           </div>
-          <hr / class="break-table">
-
-          <div class="carbs table-format"> 
-            <div><span>Carbs</span></div>  
-            <div><span class="nutrition-value">0g</span></div> 
-            
+          <hr class="break-table">
+          <div class="table-format">
+            <span>Carbs</span>
+            <span class="nutrition-value">0g</span>
           </div>
-          <hr / class="break-table">
-          
-          <div class="protein table-format"> 
-            <div><span>Protein</span></div>
-            <div><span class="nutrition-value">20g</span></div>
+          <hr class="break-table">
+          <div class="table-format">
+            <span>Protein</span>
+            <span class="nutrition-value">20g</span>
           </div>
-          <hr / class="break-table">
-          
-          <div class="fat table-format"> 
-            <div><span>Fat</span></div>
-            <div><span class="nutrition-value">22g</span></div>
+          <hr class="break-table">
+          <div class="table-format">
+            <span>Fat</span>
+            <span class="nutrition-value">22g</span>
           </div>
-
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   </div>
-  
 </body>
 </html>
